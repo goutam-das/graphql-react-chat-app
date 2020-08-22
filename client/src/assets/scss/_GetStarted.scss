@@ -1,0 +1,24 @@
+.get-started {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button-container {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+
+            span {
+                margin: 0 2px;
+            }
+        }
+    }
+}
